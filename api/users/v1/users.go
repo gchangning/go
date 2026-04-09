@@ -8,6 +8,7 @@ type RegisterReq struct {
 	Password string `json:"password"`
 	Email    string `json:"email"`
 }
+
 type RegisterRes struct {
 }
 
