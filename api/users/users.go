@@ -1,0 +1,21 @@
+// =================================================================================
+// Code generated and maintained by GoFrame CLI tool. DO NOT EDIT.
+// =================================================================================
+
+package users
+
+import (
+	"context"
+
+	"star/api/users/v1"
+)
+
+
+type IUsersV1 interface {
+	Register(ctx context.Context, req *v1.RegisterReq) (res *v1.RegisterRes, err error)
+	DelUser(ctx context.Context, req *v1.DelUserReq) (res *v1.DelUserRes, err error)
+	Login(ctx context.Context, req *v1.LoginReq) (res *v1.LoginRes, err error)
+	Logout(ctx context.Context, req *v1.LogoutReq) (res *v1.LogoutRes, err error)
+	GetUserWithInfo(ctx context.Context, req *v1.GetUserWithInfoReq) (res *v1.GetUserWithInfoRes, err error)
+
+}
