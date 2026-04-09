@@ -53,7 +53,7 @@ type GetUserWithInfoRes struct {
 	User     interface{} `json:"user"`
 	UserInfo interface{} `json:"userInfo"`
 }
-type GetUserWithInfoRes22221xxx struct {
+type GetUserWithInfoRes22221xxx33333 struct {
 	User     interface{} `json:"user"`
 	UserInfo interface{} `json:"userInfo"`
 }
